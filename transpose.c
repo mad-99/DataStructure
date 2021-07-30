@@ -5,11 +5,11 @@ void tranmatrix(int [][10],int);
 void main(){
 int mat1[10][10],row,col;
 	printf("enter the value of row...");
-	scanf("%d",&row);
+	scanf("%d",&row);//reading the row value
 	printf("enter the value of col...");
-	scanf("%d",&col);
+	scanf("%d",&col);// reading the coloumn value
 	printf("enter the first matrix \n");
-	inputmatrix(mat1,row,col);
+	inputmatrix(mat1,row,col);//Reading matrix value
 	tranmatrix(mat1,row,col);
 	printf("transpose of matrix\n");
 	outputmatrix(mat1,row);	
