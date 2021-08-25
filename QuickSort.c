@@ -46,9 +46,9 @@ int Partition(int a[],int LI,int RI){
 	swap(&a[i+1],&a[RI]);
 	return i+1;
 }
-void swap(int *ele1,int *ele2){
+void swap(int *elet1,int *elet2){
 	int temp;
-	temp = *ele1;
-	*ele1=*ele2;
-	*ele2=temp;
+	temp = *elet1;
+	*elet1=*elet2;
+	*elet2=temp;
 }
